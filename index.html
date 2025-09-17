@@ -690,8 +690,8 @@
         </h1>
         
         <p class="birthday-message">
-            🏠 Hey there, awesome roomie! Another year of being absolutely incredible! ✨<br>
-            Time to celebrate in the most epic way possible! 🚀<br>
+            Hey roomie! Another year older, another year more legendary!<br>
+            Feels crazy that from sharing one tiny room, we’re now spread across different companies, chasing deadlines instead of Maggi at 2 AM.<br>
             But first... you'll need to unlock this surprise! 🔐<br>
             <small><em>💡 Hint: Click around on the floating elements for fun surprises!</em></small>
         </p>
@@ -700,8 +700,8 @@
             <div id="puzzle-stage">
                 <h3 style="margin-bottom: 16px; font-size: 24px;">🎯 Ultimate Birthday Challenge!</h3>
                 <p style="margin-bottom: 24px; color: var(--color-gray-600);">
-                    What's your absolute favorite late-night companion that we always fought about bringing to the room?<br>
-                    <small>(Hint: It has spices, it's instant, and it rhymes with "Maggi"! 🍜)</small>
+                    Complete this sentence: "I went to FC for brownies, but I was really there for ______"<br>
+                    <small>(Hint: Five letters, and the reason you suddenly became a "brownie lover"! 😂💛)</small>
                 </p>
                 
                 <input type="text" id="answer-input" placeholder="Type your answer here..." 
@@ -728,7 +728,7 @@
                     <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">🎫 Zomato E-Gift Card</div>
                     <div style="font-size: 24px; font-weight: black; color: var(--color-yellow); margin-bottom: 8px;">💰 Rs. 1,000</div>
                     <div style="font-size: 14px; margin-bottom: 4px;"><strong>Card No.:</strong>6004860041982974</div>
-                    <div style="font-size: 14px;"><strong>PIN:</strong>CALL</div>
+                    <div style="font-size: 14px;"><strong>PIN:</strong>CALL ME</div>
                 </div>
                 
                 <p style="font-size: 18px; margin: 20px 0; font-style: italic;">
@@ -765,7 +765,7 @@
         let giftsOpened = 0;
         let candlesBlown = false;
         
-        const correctAnswers = ['zomato', 'food', 'delivery', 'order', 'ordering', 'eating'];
+        const correctAnswers = ['varsha', 'varsha💕', 'var', 'VARSHA', 'Varsha'];
         
         // Initialize particle system
         function createParticles() {
@@ -909,10 +909,10 @@
         
         function getHint(attemptNumber) {
             const hints = [
-                "🤔 Hmm, not quite! Think red logo, food delivery... 🍕",
-                "💡 Getting warmer! It rhymes with 'tomato'... 🍅",
-                "😅 Last hint: Z-O-M-A-T-O! The app that feeds our laziness! 🍔",
-                "🎯 Okay, I'll be super obvious: It's ZOMATO! 😄"
+                 "🤔 Think FC, think brownies, think... the real reason you were there! 👀",
+                "💡 She made you pretend to love desserts just for her company! 🍫💕", 
+                "😅 Okay fine - BAARISH! The brownie queen who stole your heart! 👑💛",
+                "🎯 VARSHA! Your FC brownie buddy and eternal crush! Now stop pretending you forgot! 😂"
             ];
             return hints[Math.min(attemptNumber - 1, hints.length - 1)];
         }
